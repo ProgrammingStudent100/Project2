@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <img src="clublogo.png" alt="Club Logo" />
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Contact Us</h1>
+        <div class="blurb">
+            <p>Have a question or want to reach out? Fill out the form below and we’ll get back to you soon.</p>
+            
+            <form action="#" method="post" style="width:80%; margin:auto;">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required style="width:100%; padding:8px;"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required style="width:100%; padding:8px;"><br><br>
+
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" style="width:100%; padding:8px;"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" style="width:100%; padding:8px;"></textarea><br><br>
+
+                <input type="submit" value="Submit" style="padding:10px 20px;">
+                <input type="reset" value="Reset" style="padding:10px 20px;">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
